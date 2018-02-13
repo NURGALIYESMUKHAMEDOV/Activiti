@@ -5,6 +5,6 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
   <listener>
-    <listener-class></listener-class>
+    <listener-class>org.activiti.rest.servlet.WebConfigurer</listener-class>
   </listener>
 </web-app>
