@@ -13,6 +13,13 @@
         <spring.framework.version>4.2.5.RELEASE</spring.framework.version>
         <spring.security.version>4.0.4.RELEASE</spring.security.version>
     </properties>
+
+    <modules>
+        <module>modules/activiti-common-rest</module>
+        <module>modules/activiti-rest</module>
+        <module>modules/activiti-webapp-rest2</module>
+    </modules>
+
     <dependencies>
         <!-- Logging -->
         <dependency>
