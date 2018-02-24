@@ -10,4 +10,5 @@ import org.springframework.context.annotation.*;
 @ComponentScan(basePackages = {"org.activiti.rest.conf"})
 @ImportResource({"classpath:activiti-custom-context.xml"})
 public class ApplicationConfiguration {
+
 }
