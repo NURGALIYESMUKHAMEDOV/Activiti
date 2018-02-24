@@ -93,7 +93,7 @@ public class ActivitiEngineConfiguration {
     public ProcessEngineFactoryBean processEngineFactoryBean(){
         ProcessEngineFactoryBean factoryBean = new ProcessEngineFactoryBean();
         factoryBean.setProcessEngineConfiguration(processEngineConfiguration());
-
+        return factoryBean;
     }
 
     @Bean(name = "processEngine")
