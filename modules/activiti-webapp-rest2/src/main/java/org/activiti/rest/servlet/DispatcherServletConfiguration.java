@@ -27,7 +27,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  * Created by Nurgali.Yesmukhamedo on 13.02.2018.
  */
 @Configuration
-@ComponentScan({"org.activiti.rest.exception", "org.activiti.rest.service.api"})
+@ComponentScan({"org.activiti.rest.exception", "org.activiti.rest.service.api"/*, "org.activiti.rest.conf"*/})
 @EnableAsync
 public class DispatcherServletConfiguration extends WebMvcConfigurationSupport {
 

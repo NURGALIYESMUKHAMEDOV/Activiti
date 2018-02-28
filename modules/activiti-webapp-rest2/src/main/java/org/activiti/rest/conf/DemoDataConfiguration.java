@@ -33,6 +33,7 @@ import org.apache.commons.io.IOUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.env.Environment;
 
@@ -43,6 +44,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
  * @author Joram Barrez
  */
 @Configuration
+//@ComponentScan("org.activiti.rest.conf")
 public class DemoDataConfiguration {
 
   protected static final Logger LOGGER = LoggerFactory.getLogger(DemoDataConfiguration.class);
